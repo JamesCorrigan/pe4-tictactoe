@@ -5,3 +5,7 @@ std::vector<std::vector<int>> CreateBoard() {
   std::vector<std::vector<int>> board {row,row,row};
   return board;
 }
+
+int main() {
+  std::vector<std::vector<int>> board = CreateBoard();
+}
